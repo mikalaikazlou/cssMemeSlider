@@ -1,5 +1,4 @@
 const btns = document.querySelectorAll('.pagination_btn_item');
-
 const meme_sl_item = document.querySelectorAll('.meme_item');
 const btn_slider = document.querySelectorAll('.btn');
 const text_content = document.querySelectorAll('.text_content');
@@ -34,13 +33,9 @@ function addActiveClassForChaildNth(positionChaid) {
     let classNameSlider =`div.meme_list :nth-child(${positionChaid})`;
     let classNameText =`div.text_meme :nth-child(${positionChaid})`;
 
-    let d = document.querySelector(classNameSlider);
-    let d2 = document.querySelector(classNameSliderBtn);
-    let d3 = document.querySelector(classNameText);
-
-    d.classList.add('active_slide');
-    d2.classList.add('active_btn');
-    d3.classList.add('active_text');
+    document.querySelector(classNameSlider).classList.add('active_slide');
+    document.querySelector(classNameSliderBtn).classList.add('active_btn');
+    document.querySelector(classNameText).classList.add('active_text');
 }
 
 btns.forEach((e) => {
