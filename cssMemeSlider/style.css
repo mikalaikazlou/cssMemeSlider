@@ -23,8 +23,169 @@ span {
     font-size: 1.2em;
 }
 
+input[type="radio"]{
+    display: none;
+}
+
+div.text_meme > span{
+    display: none;
+}
+
+/* first slide */
+input#checkbox_one:checked ~ div.meme_list > div#first_img{
+    display: flex;
+    justify-content: center;
+    animation: fade_content 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+input#checkbox_one:checked ~ div > div.text_meme > span#text_one{
+    display: flex;
+    animation: fade_content 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+input#checkbox_one:checked ~ div > div > label#one_label{
+    height: 0.8em;
+    width: 0.8em;
+    display: flex;
+    animation: fade_content 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 0px 3px rgb(135, 206, 235), 0 0 0px 2px rgb(135, 206, 235);
+    background-color: #25282a;
+}
+
+input#checkbox_one:checked ~ div > div > label#one_label:hover {
+    box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
+    background-color: #25282a;
+}
+input#checkbox_one:checked ~ div > div > label#one_label:active {
+    box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
+    background-color: #25282a;
+    cursor: pointer;
+}
+
+/* second slide */
+input#checkbox_two:checked ~ div.meme_list > div#second_img{
+    display: flex;
+    justify-content: center;
+    animation: fade_content 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+input#checkbox_two:checked ~ div > div.text_meme > span#text_two{
+    display: flex;
+    animation: fade_content 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+input#checkbox_two:checked ~ div > div > label#two_label{
+    height: 0.8em;
+    width: 0.8em;
+    display: flex;
+    animation: fade_content 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 0px 3px rgb(135, 206, 235), 0 0 0px 2px rgb(135, 206, 235);
+    background-color: #25282a;
+}
+
+input#checkbox_two:checked ~ div > div > label#two_label:hover {
+    box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
+    background-color: #25282a;
+}
+input#checkbox_two:checked ~ div > div > label#two_label:active {
+    box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
+    background-color: #25282a;
+    cursor: pointer;
+}
+/* third slide */
+input#checkbox_three:checked ~ div.meme_list > div#third_img{
+    display: flex;
+    justify-content: center;
+    animation: fade_content 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+input#checkbox_three:checked ~ div > div.text_meme > span#text_three{
+    display: flex;
+    animation: fade_content 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+input#checkbox_three:checked ~ div > div > label#three_label{
+    height: 0.8em;
+    width: 0.8em;
+    display: flex;
+    animation: fade_content 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 0px 3px rgb(135, 206, 235), 0 0 0px 2px rgb(135, 206, 235);
+    background-color: #25282a;
+}
+
+input#checkbox_three:checked ~ div > div > label#three_label:hover {
+    box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
+    background-color: #25282a;
+}
+input#checkbox_three:checked ~ div > div > label#three_label:active {
+    box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
+    background-color: #25282a;
+    cursor: pointer;
+}
+/* fourth slide */
+input#checkbox_four:checked ~ div.meme_list > div#fourth_img{
+    display: flex;
+    justify-content: center;
+    animation: fade_content 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+input#checkbox_four:checked ~ div > div.text_meme > span#text_four{
+    display: flex;
+    animation: fade_content 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+input#checkbox_four:checked ~ div > div > label#four_label{
+    height: 0.8em;
+    width: 0.8em;
+    display: flex;
+    animation: fade_content 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 0px 3px rgb(135, 206, 235), 0 0 0px 2px rgb(135, 206, 235);
+    background-color: #25282a;
+}
+
+input#checkbox_four:checked ~ div > div > label#four_label:hover {
+    box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
+    background-color: #25282a;
+}
+input#checkbox_four:checked ~ div > div > label#four_label:active {
+    box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
+    background-color: #25282a;
+    cursor: pointer;
+}
+
+
+
+label.text_content{
+    display: inline-flex;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: rgb(135, 206, 235);
+}
+label.text_content:hover {
+    background-color: white;
+}
+label.text_content:active {
+    background-color: rgb(221, 250, 143);
+    cursor: grab;
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
 .slider_item {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
 .meme_item,
@@ -35,7 +196,6 @@ span {
 .slider {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     background-color: #25282a;
     color: white;
     padding: 3em;
@@ -50,11 +210,16 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
+
 .pagination_meme {
-    display: inline-flex;
-    gap: 0.2em;
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+    align-items: center;
 }
 
 .pagination_btn_item {
@@ -63,61 +228,6 @@ span {
     cursor: pointer;
 }
 
-.btn {
-    display: flex;
-    width: 1em;
-    height: 1em;
-    border-radius: 50%;
-    background-color: rgb(135, 206, 235);
-}
-
-.btn:hover {
-    background-color: white;
-}
-
-.btn:active {
-    background-color: rgb(221, 250, 143);
-    cursor: grab;
-    box-shadow:
-        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
-        0 0 0 2px rgb(255, 255, 255),
-        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-}
-
-.active_btn {
-    height: 0.8em;
-    width: 0.8em;
-    display: flex;
-    animation: fade_content 0.5s ease-in-out;
-    animation-fill-mode: forwards;
-    box-shadow: 0 0 0px 3px rgb(135, 206, 235), 0 0 0px 2px rgb(135, 206, 235);
-    background-color: #25282a;
-}
-
-.active_btn:hover {
-    box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
-    background-color: #25282a;
-}
-
-.active_btn:active {
-    box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
-    background-color: #25282a;
-    cursor: pointer;
-}
-
-
-.active_slide {
-    display: flex;
-    justify-content: center;
-    animation: fade_content 0.5s ease-in-out;
-    animation-fill-mode: forwards;
-}
-
-.active_text {
-    display: flex;
-    animation: fade_content 1s ease-in-out;
-    animation-fill-mode: forwards;
-}
 
 @keyframes fade_content {
     0% {
