@@ -57,6 +57,7 @@ input#checkbox_one:checked ~ div > div > label#one_label{
 input#checkbox_one:checked ~ div > div > label#one_label:hover {
     box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
     background-color: #25282a;
+    cursor: pointer;
 }
 input#checkbox_one:checked ~ div > div > label#one_label:active {
     box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
@@ -90,6 +91,7 @@ input#checkbox_two:checked ~ div > div > label#two_label{
 input#checkbox_two:checked ~ div > div > label#two_label:hover {
     box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
     background-color: #25282a;
+    cursor: pointer;
 }
 input#checkbox_two:checked ~ div > div > label#two_label:active {
     box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
@@ -122,6 +124,7 @@ input#checkbox_three:checked ~ div > div > label#three_label{
 input#checkbox_three:checked ~ div > div > label#three_label:hover {
     box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
     background-color: #25282a;
+    cursor: pointer;
 }
 input#checkbox_three:checked ~ div > div > label#three_label:active {
     box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
@@ -153,6 +156,7 @@ input#checkbox_four:checked ~ div > div > label#four_label{
 input#checkbox_four:checked ~ div > div > label#four_label:hover {
     box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
     background-color: #25282a;
+    cursor: pointer;
 }
 input#checkbox_four:checked ~ div > div > label#four_label:active {
     box-shadow: 0 0 0px 3px rgb(255, 255, 255), 0 0 0px 2px rgb(255, 255, 255);
@@ -171,6 +175,7 @@ label.text_content{
 }
 label.text_content:hover {
     background-color: white;
+    cursor: pointer;
 }
 label.text_content:active {
     background-color: rgb(221, 250, 143);
