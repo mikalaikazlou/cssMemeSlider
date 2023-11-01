@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Meme Slider</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="slider">
+            <div class="slider_item img_meme">
+                <input type="radio" id="checkbox_one" name="meme" checked />
+                <input type="radio" id="checkbox_two" name="meme" />
+                <input type="radio" id="checkbox_three" name="meme" />
+                <input type="radio" id="checkbox_four" name="meme" />
+                <div class="meme_list slider_item">
+                    <div class="meme_item" id="first_img"><img src="./img/meme_one.jpg" alt="meme first" class="meme_img"></div>
+                    <div class="meme_item" id="second_img"><img src="./img/meme_two.jpg" alt="meme second" class="meme_img"></div>
+                    <div class="meme_item" id="third_img"><img src="./img/meme_three.jpg" alt="meme third" class="meme_img"></div>
+                    <div class="meme_item" id="fourth_img"><img src="./img/meme_four.jpg" alt="meme fourth" class="meme_img"></div>
+                </div>
+                <div class="bottom_part_slider">
+                    <div class="text_meme">
+                        <span id="text_one">That moment when your code works</span>
+                        <span id="text_two">I'm in the office hard at work</span>
+                        <span id="text_three">I'm coming tomorrow said tomorrow</span>
+                        <span id="text_four">I'm UX designer</span>
+                    </div>
+                    <div class="pagination_meme">
+                        <label class="text_content" id="one_label" for="checkbox_one"></label>
+                        <label class="text_content" id="two_label" for="checkbox_two"></label>
+                        <label class="text_content" id="three_label" for="checkbox_three"></label>
+                        <label class="text_content" id="four_label" for="checkbox_four"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
